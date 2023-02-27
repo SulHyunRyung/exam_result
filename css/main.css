@@ -12,6 +12,12 @@
     font-family: 'Noto Sans Kr';
 }
 
+.table_box {
+    width: 580px;
+    height: 300px;
+    border-top: 1px solid #ddd;
+}
+
 .table_line_1 {
     background: #263576;
     padding: 1% 2%;
@@ -37,21 +43,84 @@
 
 .table_line_2 {
     padding: 1% 2%;
+    margin-bottom: 20px;
 }
 
 .table_line_2 p {
     font-size: 22px;
 }
 
+.line_cover {
+    background: #f8f8f8;
+}
+
 .table_line_3 {
-    background: #6065e9;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
 }
 
 .score_tit {
-    background: #263576;
     text-align: center;
     width: 25%;
     float: left;
-    color: #fff;
     padding: 1%;
+    border-right: 1px solid #ddd;
+}
+
+.graph {
+    width: 65%;
+    float: left;
+}
+
+.graph_body {
+    position: relative;
+    background: #263576;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.graph_body span {
+    position: absolute;
+    right: -40px;
+    top: 3.5px;
+    font-size: 14px;
+}
+
+.table_line_4 {
+    margin-top: -20px;
+}
+
+.table_line_5 {
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+
+.table_line_5 ul {
+    width: 100%;
+    display: inline-block;
+}
+
+.table_line_5 ul li {
+    text-align: center;
+    width: 25%;
+    float: left;
+    line-height: 40px;
+}
+
+.table_line_5 ul li:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.table_line_5 ul li:last-child {
+    font-weight: bold;
+}
+
+.re_blue {
+    color: #00f;
+}
+
+.re_red {
+    color: #f00;
 }
