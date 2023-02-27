@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 's-core_L';
+    src: url("../font/s-core_L.otf");
+} 
+
+.wrap,
+.table_box,
+.table_line {
+    width:100%;
+    position:relative;
+    display: inline-block;
+    font-family: 'Noto Sans Kr';
+}
+
+.table_line_1 {
+    background: #263576;
+    padding: 1% 2%;
+}
+
+.u_name,
+.date_box {
+    width: 50%;
+    float: left;
+    color: #fff;
+}
+
+.u_name {
+    font-weight: bold;
+    font-size: 20px;
+    line-heighT: 40px;
+}
+
+.date_box { 
+    text-align: right;
+
+}
+
+.table_line_2 {
+    padding: 1% 2%;
+}
+
+.table_line_2 p {
+    font-size: 22px;
+}
+
+.table_line_3 {
+    background: #6065e9;
+}
+
+.score_tit {
+    background: #263576;
+    text-align: center;
+    width: 25%;
+    float: left;
+    color: #fff;
+    padding: 1%;
+}
